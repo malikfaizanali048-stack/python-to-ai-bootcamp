@@ -1,32 +1,33 @@
-# skills = ["Ml", "Python", "Numpy"]
+skills = ["Python", "PyTorch", "Machine Learning", "FastAPI"]
 
-# # # print(skills[2])
+# print(skills[2])
 
-# # skills[2] = "Pandas"
-# # print(skills[2])
+skills[2] = "Pandas"
+print(skills[2])
 
-# # print(len(skills))
+print(len(skills))
 
-# # print("maths" not in skills)
+print("Calculus" not in skills)
 
-# # skills.append("Maths")
-# # print(skills)
+skills.append("Computer Vision")
+print(skills)
 
-# # skills.extend(["Calculus", "Stats", "Prob"])
-# # print(skills)
+skills.extend(["Docker", "MLflow", "React"])
+print(skills)
 
-# num = [10,30,20]
-# sorted_num = sorted(num)
-# print(sorted_num)
+num = [10, 30, 20]
+sorted_num = sorted(num)
+print(sorted_num)
 
 student = {
-    "name": "Akif",
-    "age": 20,
-    "gpa": 3.94
+    "name": "Malik Faizan Ali",
+    "age": 22,
+    "focus": "Artificial Intelligence",
+    "skills": skills
 }
 
-# for key, value in student.items():
-#     print(key, ":", value)
+for key, value in student.items():
+    print(key, ":", value)
     
 print(student.get("age"))
 print(student.keys())
