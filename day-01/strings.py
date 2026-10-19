@@ -1,4 +1,4 @@
-message = "hello im akif"
+message = "hello im malik faizan ali"
 
 print(message[2])
 print(message[-1])
@@ -13,12 +13,12 @@ print(message)
 print(message.upper())
 print(message.title())
 
-st = "   a    "
+st = "    a    "
 print(st.strip())
 print(st.lstrip())
 print(st.rstrip())
 
 print(message.replace("hello", "Hey!"))
 
-s = "a,b,c"
+s = "Python,PyTorch,FastAPI"
 print(s.split(","))
