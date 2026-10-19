@@ -3,12 +3,12 @@
 
 # # comments
 
-# # print("akif 1")
-# # print("akif 1")
-# # print("akif 1")
+# # print("malik 1")
+# # print("malik 1")
+# # print("malik 1")
 
 # # int var = 1;
-# # var = "akif" // assignment operator 
+# # var = "malik" // assignment operator 
 
 # # == //comparison operator
 # # no = 1
@@ -46,7 +46,7 @@
 # left (variable --> count) = right (value), 1 
 # count = 1
 
-# name = "akif"
+name = "malik faizan ali"
 
 for number in range(1,8):
     if number == 2:
